@@ -31,7 +31,7 @@ export const Navbar = () => {
     >
       <div className="container flex items-center justify-between ">
         <a
-          className="text-xl font-bold text-primary flex items-center"
+          className="text-xl font-bold text-primary flex items-center backdrop-blur-3xl"
           href="#hero"
         >
           <span className="relative z-10">
@@ -46,7 +46,7 @@ export const Navbar = () => {
             <a
               key={key}
               href={item.href}
-              className="text-foreground/80 hover:text-primary transition-colors duration-300"
+              className="text-foreground/80 hover:text-primary transition-colors duration-300 backdrop-blur-3xl"
             >
               {item.name}
             </a>
@@ -57,7 +57,7 @@ export const Navbar = () => {
 
         <button
           onClick={() => setIsMenuOpen((prev) => !prev)}
-          className="md:hidden p-2 text-foreground z-50"
+          className="md:hidden p-2 text-foreground z-50 backdrop-blur-3xl"
           aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}{" "}
