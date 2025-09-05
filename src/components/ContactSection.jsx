@@ -41,7 +41,7 @@ export const ContactSection = () => {
           I'm always open to discussing new opportunities.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="flex justify-center gap-12">
           <div className="space-y-8">
             <h3 className="text-2xl font-semibold mb-6">
               {" "}
@@ -56,7 +56,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Email</h4>
                   <a
-                    href="mailto:hello@gmail.com"
+                    href="mailto:sourabhmajhee605@gmail.com@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     sourabhmajhee605@gmail.com
@@ -70,7 +70,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Phone</h4>
                   <a
-                    href="tel:+11234567890"
+                    href="tel:+919303293075"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     +91 93032 93075
@@ -90,8 +90,8 @@ export const ContactSection = () => {
               </div>
             </div>
 
-            <div className="pt-8">
-              {/* <h4 className="font-medium mb-4"> Connect With Me</h4>
+            {/*<div className="pt-8">
+               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
                  <a href="#" target="_blank">
                   <Linkedin />
@@ -105,15 +105,15 @@ export const ContactSection = () => {
                  <a href="#" target="_blank">
                   <Twitch />
                 </a> 
-              </div> */}
-            </div>
+              </div> 
+            </div>*/}
           </div>
 
-          <div
+          {/*<div
             className="bg-card p-8 rounded-lg shadow-xs"
             onSubmit={handleSubmit}
           >
-            {/* <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
+             <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
 
             <form className="space-y-6">
               <div>
@@ -179,8 +179,8 @@ export const ContactSection = () => {
                 {isSubmitting ? "Sending..." : "Send Message"}
                 <Send size={16} />
               </button>
-            </form> */}
-          </div>
+            </form> 
+          </div>*/}
         </div>
       </div>
     </section>
