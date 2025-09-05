@@ -26,9 +26,11 @@ export const Home = () => {
         {/* <ProjectsSection /> */}
         <ContactSection />
       </main>
-
-      {/* Footer */}
-      <Footer />
+      
+        {/* Footer */}
+        <Footer />
+      
+      
     </div>
   );
 };
