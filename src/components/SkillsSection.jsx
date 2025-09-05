@@ -19,7 +19,7 @@ const skills = [
 
   // Tools
   { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "Colab", level: 75, category: "tools" },
+  { name: "Google Colab", level: 75, category: "tools" },
   { name: "Kaggle", level: 80, category: "tools" },
 
   { name: "VS Code", level: 95, category: "tools" },
