@@ -59,7 +59,7 @@ export const ContactSection = () => {
                     href="mailto:hello@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    sourabh----------@gmail.com
+                    sourabhmajhee605@gmail.com
                   </a>
                 </div>
               </div>
@@ -73,7 +73,7 @@ export const ContactSection = () => {
                     href="tel:+11234567890"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +91-----------
+                    +91 93032 93075
                   </a>
                 </div>
               </div>
@@ -91,9 +91,9 @@ export const ContactSection = () => {
             </div>
 
             <div className="pt-8">
-              <h4 className="font-medium mb-4"> Connect With Me</h4>
+              {/* <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
+                 <a href="#" target="_blank">
                   <Linkedin />
                 </a>
                 <a href="#" target="_blank">
@@ -101,11 +101,11 @@ export const ContactSection = () => {
                 </a>
                 <a href="#" target="_blank">
                   <Instagram />
-                </a>
-                <a href="#" target="_blank">
+                </a> 
+                 <a href="#" target="_blank">
                   <Twitch />
-                </a>
-              </div>
+                </a> 
+              </div> */}
             </div>
           </div>
 
@@ -113,7 +113,7 @@ export const ContactSection = () => {
             className="bg-card p-8 rounded-lg shadow-xs"
             onSubmit={handleSubmit}
           >
-            <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
+            {/* <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
 
             <form className="space-y-6">
               <div>
@@ -179,7 +179,7 @@ export const ContactSection = () => {
                 {isSubmitting ? "Sending..." : "Send Message"}
                 <Send size={16} />
               </button>
-            </form>
+            </form> */}
           </div>
         </div>
       </div>
